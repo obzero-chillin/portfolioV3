@@ -1,0 +1,64 @@
+@font-face {
+    font-family: TheSignature;
+    src: url(/src/fonts/Thesignature.otf);
+    src:url(/src/fonts/Thesignature.ttf);
+}
+
+
+
+#home{
+    width:100%;
+    color:rgb(239, 239, 239);
+    padding:0;
+    position:relative;
+    scale:1;
+}
+
+#imgCont{
+    width:100%;
+    height:100vh;
+}
+
+#backgroundImg{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    filter:brightness(35%);
+}
+
+#hero{
+    padding-top: 8rem;
+    width:100%;
+    height:100%;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    top:0%;
+}
+
+#heading{
+    font-family:'TheSignature';
+    font-size:10rem;
+    line-height: 0rem;
+    color:hsl(42.55,44.72%,60%);
+}
+
+#heroDesc{
+    line-height:0rem
+    
+}
+
+#heroButtons{
+    font-size:1rem;
+    margin:10rem;
+}
+
+#heroButtons > a{
+    margin: 2rem;
+}
+
+#heroButtons button{
+    width:10rem;
+    padding:1rem 2rem;
+    border-radius: var(--corner);
+}

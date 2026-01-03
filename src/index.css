@@ -1,0 +1,23 @@
+:root {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  color-scheme: light dark;
+  /*color: rgba(255, 255, 255, 0.87);*/
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+
+
+  --text:rgb(24, 24, 24);
+
+  --pLineHeight:0.125rem;
+  --corner:10px;
+
+  --p:1rem;
+}
+html,body{
+  margin:0 auto;
+}
