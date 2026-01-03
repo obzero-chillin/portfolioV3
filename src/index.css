@@ -8,10 +8,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: whitesmoke;
+  background-color: hsl(42.55,44.72%,90%);
+
+  --bg1: hsl(0, 0%, 98%);
+  --bg2:hsl(0, 0%, 100%);
+  --bg3:hsl(42.55,44.72%,80%);
+
+  
+  color:var(--text);
+
+  --secondary:hsl(42.55,44.72%,60%);
 
 
   --text:rgb(24, 24, 24);
+  --insignificant:hsl(0, 0%, 30%);
 
   --pLineHeight:0.125rem;
   --corner:10px;

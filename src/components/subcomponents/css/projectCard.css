@@ -1,0 +1,26 @@
+.projectCard{
+    width:15rem;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+
+    background-color: var(--bg1);
+    padding:0.25rem;
+    border-radius: var(--corner);
+    padding:1rem 1.25rem;
+    line-height: var(--p);
+    justify-content: space-between;
+}
+.projectCard>p{
+    color:var(--insignificant);
+}
+
+.projectRedirect{
+    margin-top:1.25rem;
+    width:10rem;
+    padding:0.5rem 1rem;
+    border-radius: var(--corner);
+    border:1px solid hsl(42.55,44.72%,60%);
+    background-color: var(--bg3);
+    
+}
