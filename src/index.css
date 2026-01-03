@@ -27,6 +27,8 @@
   --corner:10px;
 
   --p:1rem;
+
+  ---ptop:3rem;
 }
 html,body{
   margin:0 auto;
