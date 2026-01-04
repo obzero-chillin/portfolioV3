@@ -4,7 +4,7 @@ import pfp from '../assets/pfp.png'
 const About = () => {
   return (
     <div id='about'>
-      <h1>About</h1>
+      <h1 className='topic'>About</h1>
       <div id='pfpCont'>
         <img src={pfp} id='pfp' />
       </div>

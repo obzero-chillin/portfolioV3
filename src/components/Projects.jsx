@@ -5,7 +5,7 @@ import ProjectCard from './subcomponents/projectCard'
 const Projects = () => {
   return (
     <div id='projects'>
-      <h1>Projects</h1>
+      <h1 className='topic'>Projects</h1>
       <div id="projectsContainer">
         <ProjectCard 
           title='Feature Flags Service'

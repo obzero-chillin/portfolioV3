@@ -9,7 +9,7 @@ import { LuGithub } from "react-icons/lu";
 const Skills = () => {
   return (
     <div id="skills">
-      <h1>Skills</h1>
+      <h1 className='topic'>Skills</h1>
       <div id='skillsCont'>
 
         <div className='skillItem'>

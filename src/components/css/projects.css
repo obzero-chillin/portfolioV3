@@ -1,5 +1,5 @@
 #projects{
-    height:fit-content;
+    height:100vh;
     padding-top:5rem;
     color:var(--text);
     display: flex;

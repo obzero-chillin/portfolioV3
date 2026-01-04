@@ -5,7 +5,7 @@ import Reference from './subcomponents/reference.jsx'
 const References = () => {
   return (
     <div id='references'>
-        <h1>References</h1>
+        <h1 className='topic'>References</h1>
         <div id='referencesContainer'>
             <Reference />
             <Reference />

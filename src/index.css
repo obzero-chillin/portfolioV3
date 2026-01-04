@@ -1,5 +1,5 @@
 :root {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   color-scheme: light dark;
   /*color: rgba(255, 255, 255, 0.87);*/
@@ -24,13 +24,29 @@
   --text:rgb(24, 24, 24);
   --insignificant:hsl(0, 0%, 30%);
 
-  --pLineHeight:0.125rem;
   --corner:10px;
 
-  --p:1rem;
+  --h1:3rem;
+  --h1L:0.33rem;
+  --h2:2.5rem;
+  --h2L:0.4rem;
+  --p:1rem/0.125rem;
 
   ---ptop:3rem;
 }
 html,body{
   margin:0 auto;
+}
+
+.topic{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+  font-size: var(--h1);
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  font-size: 1rem;
 }
