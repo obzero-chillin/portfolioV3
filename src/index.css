@@ -8,8 +8,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: hsl(42.55,44.72%,90%);
 
+
+  --bg0:hsl(42.55,44.72%,90%);;
   --bg1: hsl(0, 0%, 98%);
   --bg2:hsl(0, 0%, 100%);
   --bg3:hsl(42.55,44.72%,80%);

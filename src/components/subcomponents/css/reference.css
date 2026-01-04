@@ -1,0 +1,23 @@
+.reference{
+    width:10rem;
+    height:20rem;
+    background-color:var(--bg1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:1rem;
+    border-radius: var(--corner);
+}
+
+.refpicCont{
+    width:99%;
+    height:90%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.refImg{
+    object-fit: contain;
+    width:100%;
+    height:100%;
+
+}

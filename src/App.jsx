@@ -5,6 +5,8 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Homepage from './components/Homepage'
 import About from './components/about';
+import References from './components/references';
+import Contact from './components/contact';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +36,9 @@ function App() {
       <Routes>
         <Route path="/" element= {<Homepage />} />
         <Route path='/about' element={<About />} />
+        <Route path='/references' element={<References />} />
+        <Route path='/contact' element={ <Contact/> } />
+        
 
       </Routes>
       
