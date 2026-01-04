@@ -1,3 +1,37 @@
 #contact{
     margin-top: 4rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contactFormContainer{
+    margin-top: 3rem;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    border:2px solid red;
+
+
+}
+.inputField{
+    width:20em;
+    height:2rem;
+    border-radius: var(--corner);
+    border:none;
+    margin-bottom: 1rem;
+    padding:0.5rem;
+
+}
+
+#submit{
+    width:10em;
+    border-radius: var(--corner);
+    border: none;
+    background-color: var(--bg3);
+    border:1px solid hsl(42.55,44.72%,60%);
 }
