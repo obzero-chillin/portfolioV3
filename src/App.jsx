@@ -7,6 +7,7 @@ import Homepage from './components/Homepage'
 import About from './components/about';
 import References from './components/references';
 import Contact from './components/contact';
+import logo from './assets/Logo.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,12 @@ function App() {
       <Router>
       <header>
         <div id="header">
-          <h2>aom</h2>
+          <div id='logoCont'>
+            <Link to='/' >
+              <img src={logo} id="logo"/>
+            
+            </Link>
+          </div>
           <div id="navDiv">
             <Link to='/about'>
               <p>About</p>

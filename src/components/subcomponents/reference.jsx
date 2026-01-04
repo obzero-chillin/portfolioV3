@@ -2,18 +2,18 @@ import React from 'react'
 import './css/reference.css'
 import ref1 from '../../assets/references/ref001.png'
 
-const References = () => {
+const Reference = ({image, name, onOpen}) => {
   return (
-    <div className='reference'>
+    <div className='reference' onClick={()=>{onOpen()}}>
       
         <div className="refpicCont">
-          <img src = {ref1} className='refImg'/>
+          <img src = {image} className='refImg'/>
         </div>
         <div className="conclusion">
-          <h3>Mrs T. Kealotswe</h3>
+          <h3>{name}</h3>
         </div>
     </div>
   )
 }
 
-export default References
+export default Reference

@@ -28,3 +28,16 @@
 #navDiv p a{
   text-decoration: none;
 }
+
+#logoCont{
+  height:100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+
+  
+}
+#logo{
+  object-fit: contain;
+  width:100%;
+  height:100%;
+}

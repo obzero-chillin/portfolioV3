@@ -17,3 +17,21 @@
     align-items: center;
 
 }
+
+#fullscreenPic{
+    top:0%;
+    left:0%;
+    right:0%;
+    position:fixed;
+    width:auto;
+    height:90vh;
+    z-index: 10000;
+}
+
+#fullscreenPic>img{
+    object-fit: contain;
+    height:99vh;
+    zoom: normal;
+        max-width: 99vw;
+
+}

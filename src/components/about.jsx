@@ -27,7 +27,7 @@ const About = () => {
             Github.
         </p>
         <h2>Expertise:</h2>
-        <p>
+        
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -41,7 +41,7 @@ const About = () => {
             <li>Redis</li>
             <li>Github</li>
           </ul>
-        </p>
+        
       </div>
     </div>
   )
