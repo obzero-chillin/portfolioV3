@@ -5,6 +5,8 @@ import { IoLogoJavascript,IoLogoNodejs } from "react-icons/io5";
 import { BsFiletypeSql } from "react-icons/bs";
 import { TbBrandTailwind } from "react-icons/tb";
 import { LuGithub } from "react-icons/lu";
+import { DiRedis } from "react-icons/di";
+
 
 const Skills = () => {
   return (
@@ -50,6 +52,15 @@ const Skills = () => {
         <em>SQL</em>
 
         </div>
+        
+        
+        <div className='skillItem'>
+        <DiRedis className='s_icon' title='Redis'/><br></br>
+        <em>Redis</em>
+
+        </div>
+
+
         <div className='skillItem'>
         <TbBrandTailwind className='s_icon' title='Tailwind CSS'/><br></br>
         <em>Tailwind</em>
