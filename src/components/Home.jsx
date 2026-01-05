@@ -15,12 +15,12 @@ const Home = () => {
             <h2 id="heroDesc">A fullstack web and software developer in Botswana</h2>
             <div id='heroButtons'>
                 <a id="aboutLink">
-                    <button id="aboutBtn">
+                    <button id="aboutBtn" onClick={()=>{window.open('/about', '_self')}}>
                         About
                     </button>
                  </a>
                  <a id="contactLink">
-                    <button id="contactBtn">
+                    <button id="contactBtn" onClick={()=>{window.open('/contact', '_self')}}>
                         Contact
                     </button>
                  </a>

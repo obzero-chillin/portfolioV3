@@ -9,7 +9,7 @@ const ProjectCard = ({title, description,redirect, redirectLink}) => {
             <p>{description}</p>
 
         </div>
-        <button className='projectRedirect' onClick={()=>{window.open({redirectLink})}}>{redirect}</button>
+        <button className='projectRedirect' onClick={()=>{window.open(redirectLink)}}>{redirect}</button>
     </div>
   )
 }

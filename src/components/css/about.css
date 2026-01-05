@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right:var(--aboutPad);
+    padding-left: var(--aboutPad);
+    max-width:2560px;
 }
 
 #pfpCont{

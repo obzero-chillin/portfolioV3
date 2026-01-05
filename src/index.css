@@ -10,10 +10,11 @@
   -moz-osx-font-smoothing: grayscale;
 
 
-  --bg0:hsl(42.55,44.72%,90%);;
+  --bg0:hsl(0, 0%, 97%);;
   --bg1: hsl(0, 0%, 98%);
   --bg2:hsl(0, 0%, 100%);
   --bg3:hsl(42.55,44.72%,80%);
+  --bd: rgba(32, 33, 36, 0.28);
 
   
   color:var(--text);
@@ -32,7 +33,11 @@
   --h2L:0.4rem;
   --p:1.125rem/0.8rem;
 
+  --aboutPad:10rem;
+
   ---ptop:3rem;
+
+  scrollbar-width: thin;
 }
 html,body{
   margin:0 auto;
@@ -54,7 +59,29 @@ p{
 @media (width<768px){
   :root{
     --h1:2.75rem !important;
-    --h2:0.75rem !important;
-    --p:1rem/1rem !important;
+    --h2:1.75rem !important;
+    --p:1rem/1rem !important;    
+    --aboutPad:1rem;
+
+
   }
+}
+@media (width<2560){
+  :root{
+    --h1:5.5rem !important;
+    --h2:3.5rem !important;
+    --p:2rem/1rem !important;
+  }
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    -bd:rgba(255, 255, 255, 0.1);
+    --bg0:rgb(24, 24, 24);
+    --bg1:rgb(48, 48, 48);
+    --bg3:hsl(42.55,44.72%,20%);
+    --text:whitesmoke;
+    --insignificant:rgb(154, 35, 35) !important;
+  }
+
 }

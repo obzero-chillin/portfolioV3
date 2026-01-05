@@ -9,18 +9,12 @@ const Projects = () => {
       <div id="projectsContainer">
         <ProjectCard 
           title='Feature Flags Service'
-          description="A service for managing feature flags in a microserices architecture"
+          description="A service for managing feature flags in a microservices architecture."
           redirect="View on Github"
           redirectLink='https://github.com/obzero-chillin/Feature_flags'
         
         />
-        <ProjectCard 
-          title='Aurora Tracker'
-          description="An app that predicts auroras"
-          redirect="Under Construction"
-          redirectLink=''
         
-        />
 
       </div>
       
