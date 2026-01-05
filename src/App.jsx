@@ -24,14 +24,14 @@ function App() {
             </Link>
           </div>
           <div id="navDiv">
-            <Link to='/about'>
+            <Link to='/about' className='navLink'>
               <p>About</p>
             </Link>
             
-            <Link to='/references'>
+            <Link to='/references' className='navLink'>
               <p>References</p>
             </Link>
-           <Link to='/contact'>
+           <Link to='/contact' className='navLink'>
               <p>Contact</p>
             </Link>
             </div>

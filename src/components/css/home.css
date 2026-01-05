@@ -8,10 +8,9 @@
 
 #home{
     width:100%;
+    max-width: 100%;
     color:rgb(239, 239, 239);
     padding:0;
-    position:relative;
-    scale:1;
 }
 
 #imgCont{

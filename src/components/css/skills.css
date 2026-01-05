@@ -19,7 +19,7 @@
     background-color: var(--bg1);
     border-radius: var(--corner);
     padding:1rem;
-    font-size:1.5rem;
+    font-size:var(--p);
     width:8rem;
     border:2px solid rgb(255, 255, 255);
 }
